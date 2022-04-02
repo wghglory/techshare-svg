@@ -1,0 +1,150 @@
+## Layout examples
+
+<Invert>
+
+## Invert Layout
+
+</Invert>
+
+---
+
+<Split>
+
+![](https://source.unsplash.com/random/768x2048?brooklyn)
+
+## Split Layout
+
+</Split>
+
+---
+
+<SplitRight>
+
+![](https://source.unsplash.com/random/768x2048?brooklyn)
+
+## SplitRight Layout
+
+</SplitRight>
+
+---
+
+<Horizontal>
+
+## Horizontal Layout
+
+![](https://source.unsplash.com/random/768x2048?brooklyn)
+
+![](https://source.unsplash.com/random/768x2048?brooklyn)
+
+</Horizontal>
+
+---
+
+<FullScreenCode>
+
+```jsx
+<Button>FullScreenCode Layout</Button>
+```
+
+</FullScreenCode>
+
+Technologies
+
+<CodeSurfer theme={nightOwl}>
+
+```js
+console.log(1);
+console.log(2);
+console.log(3);
+```
+
+</CodeSurfer>
+
+---
+
+Technologies
+
+<CodeSurferColumns>
+
+<Step subtitle="First Step">
+
+```js
+console.log(1);
+console.log(2);
+```
+
+```js
+console.log('a');
+console.log('b');
+```
+
+</Step>
+
+<Step subtitle="Second Step">
+
+```js 2
+console.log(1);
+console.log(2);
+```
+
+```js 2
+console.log('a');
+console.log('b');
+```
+
+</Step>
+
+</CodeSurferColumns>
+
+---
+
+<Center>
+
+## Deployment, Servers, DevOps
+
+<TwoColumn
+  left={
+    <ul>
+      <li>
+        <SmallText>Hosting Platforms: netlify, github pages, heroku, digital ocean, AWS, Azure</SmallText>
+      </li>
+      <li>
+        <SmallText>Web Servers: Nginx, Apache</SmallText>
+      </li>
+      <li>
+        <SmallText>Containers: Docker, K8s</SmallText>
+      </li>
+      <li>
+        <SmallText>CI / CD: Travis CI, Circle CI, Jenkins</SmallText>
+      </li>
+    </ul>
+  }
+  right={
+    <div>
+      <h5>Suggested Videos:</h5>
+      <div>
+        <SmallText>Exploring Docker</SmallText>
+        <SmallText>DevOps Crash Course</SmallText>
+        <SmallText>Automatic deployment with github actions</SmallText>
+        <SmallText>Full Node.js Deployment – NGINX, SSL with Lets Encrypt</SmallText>
+        <SmallText>Full Stack Photobook | Vue, GraphQL, AWS Amplify</SmallText>
+      </div>
+    </div>
+  }
+></TwoColumn>
+
+</Center>
+
+---
+
+<ThreeColumn
+  left={<ImageWrapper background="rgb(0, 28, 58)" src={reactImg} size="160px" />}
+  center={
+    <div>
+      <p>Libraries vs Framework</p>
+      <p>Primitives vs Abstraction</p>
+      <p>Bazaar vs Cathedral</p>
+    </div>
+  }
+  right={<ImageWrapper background="rgb(0, 28, 58)" src={angularImg} size="160px" />}
+/>

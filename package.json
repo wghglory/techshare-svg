@@ -1,0 +1,28 @@
+{
+  "name": "mdx-deck-template",
+  "version": "1.0.0",
+  "description": "mdx deck template",
+  "main": "index.js",
+  "scripts": {
+    "start": "mdx-deck ./src/deck.mdx",
+    "build": "mdx-deck build ./src/deck.mdx",
+    "help": "mdx-deck",
+    "fix": "npx eslint --fix --ext .js,.ts,.tsx .",
+    "format": "prettier --write \"**/*.+(vue|js|jsx|ts|tsx|json|css|scss|md|html)\""
+  },
+  "author": "Derek Wang",
+  "license": "MIT",
+  "dependencies": {
+    "code-surfer": "^3.1.1",
+    "mdx-deck": "^4.1.1",
+    "mdx-deck-live-code": "^1.0.1",
+    "react": "^16.8.0",
+    "styled-components": "^5.3.5"
+  },
+  "devDependencies": {
+    "eslint": "^8.12.0",
+    "eslint-plugin-react": "^7.29.4",
+    "eslint-plugin-simple-import-sort": "^7.0.0",
+    "prettier": "^2.6.1"
+  }
+}

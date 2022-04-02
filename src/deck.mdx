@@ -1,0 +1,49 @@
+import {Image, Head, Footer, Notes} from 'mdx-deck';
+import {CodeSurfer, CodeSurferColumns, Step} from 'code-surfer';
+import {nightOwl, shadesOfPurple} from '@code-surfer/themes';
+
+import {Fullscreen, TwoColumn, ThreeColumn, Center, SmallText} from './libs/Layout.js';
+import ImageWrapper from './libs/ImageWrapper';
+import Cover from './components/Cover';
+
+import techImg from './images/tech.png';
+import posterImg from './images/poster.jpg';
+
+import myTheme from './theme';
+export const theme = myTheme;
+
+<Fullscreen>
+  <div style={{background: `url(${posterImg})`, height: '100%', backgroundSize: 'cover'}}></div>
+</Fullscreen>
+
+---
+
+<Cover title="Your Presentation Title" name="Derek Wang" time="May 2021" />
+
+---
+
+## Technologies
+
+<ImageWrapper src={techImg} />
+
+<Notes>Some notes</Notes>
+
+---
+
+<h2 style={{color: '#0df2c9'}}>Scope</h2>
+
+---
+
+<h2>
+  Small Scope <span style={{color: 'hsl(167, 98%, 39%)'}}>Pros</span>
+</h2>
+
+<Center>
+  <ul>
+    <li>Fewer concepts to get started with</li>
+    <li>More flexibility and more userland opportunities: active ecosystem</li>
+    <li>
+      <strong>Smaller maintenance surface: team can focus on exploring new ideas</strong>
+    </li>
+  </ul>
+</Center>
