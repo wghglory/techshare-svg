@@ -1,10 +1,4 @@
-# MDX Deck Template
-
-A react mdx deck template that you can used for presentation!
-
-App running at http://localhost:8000
-
-## Agenda
+# SVG Animation Tech Share
 
 - [] SVG viewbox (rocket animation)
 - [] SVG accessibility (image, svg itself)
